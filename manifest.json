@@ -1,0 +1,12 @@
+{
+  "domain": "iotrix_solar",
+  "name": "Iotrix Solar",
+  "codeowners": ["@tonytcf"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/tonytcf/iotrix-solar-ha/blob/main/README.md",
+  "homeassistant": "2023.1.0",  # 兼容的HA最低版本
+  "iot_class": "cloud_polling",  # 数据来源：云平台轮询
+  "requirements": ["requests>=2.28.0"],  # 依赖的Python库
+  "version": "0.1.0"
+}
